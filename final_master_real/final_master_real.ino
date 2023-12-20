@@ -78,20 +78,20 @@ void loop()
 void normalSpeed()
 {
     digitalWrite(ML_Ctrl, HIGH);
-    analogWrite(ML_PWM, 105);
+    analogWrite(ML_PWM, 140);
 
     digitalWrite(MR_Ctrl, HIGH);
-    analogWrite(MR_PWM, 105);
+    analogWrite(MR_PWM, 140);
 }
 
 // 감속 주행
 void decreaseSpeed()
 {
     digitalWrite(ML_Ctrl, HIGH);
-    analogWrite(ML_PWM, 80);
+    analogWrite(ML_PWM, 200);
 
     digitalWrite(MR_Ctrl, HIGH);
-    analogWrite(MR_PWM, 80);
+    analogWrite(MR_PWM, 200);
 }
 
 // 정지
