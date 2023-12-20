@@ -61,7 +61,7 @@ void loop()
         if (red > 500 || distance1 < 13 || distance2 < 13 || distance3 < 13) {
           stop();
         }
-        else if (red > 300 && red <= 500)
+        else if (red > 60)
         {
           decreaseSpeed();
         }
